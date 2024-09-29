@@ -5,3 +5,5 @@ docker build -t parallel-allure-test .
 docker-compose up --build
 allure generate ./allure-results-container1 ./allure-results-container2 ./allure-results-container3 -o ./merged-results --clean
 allure serve ./merged-results
+
+Watch youtube demo : https://youtu.be/cizWG24XnXM?si=gXeJ6UeIeYne4BTH
